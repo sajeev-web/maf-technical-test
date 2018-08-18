@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <title>Assignment</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/bundle.css">
+</head>
+
+<body>
+    <!-- header  -->
+    <header>
+        <div class="container mb-5">
+            <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+                <a class="navbar-brand w-50 w-md-100" href="javascript:void(0)"><img src="dist/img/carrefour-brand-logo.png" class="img-fluid" alt="carrefour-brand-logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav mr-auto">
+                    </div>
+                    <div class="navbar-right">
+                        <form class="search-form" role="search" action="#">
+                            <div class="form-group pull-right" id="search">
+                                <span class="search-label pull-right"><img src="dist/img/icon-search.png" alt="search button "></span>
+                                <input type="text" class="form-control" placeholder="Search">
+                                <!-- <button type="submit" class="form-control form-control-submit">Submit</button> -->
+                                
+                            </div>
+                      </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Login Block  -->
+    <section>
+        <div class="container h-100 mt-3 mb-5 pb-3">
+            <div class="row justify-content-center h-100">
+                <div class="col-xs-12 col-sm-auto">  
+                <div class="card-wrapper">
+                    <div class="card fat">
+                        <div class="card-body">
+                            <h2 class="small title-main text-center">Sign In Now</h2>
+                            <h5 class="font-small text-center">Unlock Awesome Features</h5>
+                            <form method="POST" id="login-form" class="mt-3">
+                             
+                                <div class="form-group mb-2">
+                                    <label for="username"  class="label-username font-small font-italic v-hidden m-0">User name</label> <span class="notify float-right px-2 mr-2 v-hidden "><small>Required field</small></span>
+                                    <input id="username" name="username" type="text" class="form-control font-small" placeholder="User name" value="" autofocus>
+                                </div>
+
+                                <div class="form-group mb-2">
+                                    <label for="password" class="label-password font-small font-italic v-hidden m-0">Password</label> <span class="notify float-right px-2 mr-2 v-hidden"> <small>Required field</small> </span>
+                                    <input id="password" name="password" type="password" class="form-control font-small" placeholder="Password" data-eye>
+                                </div>
+                                <div class="form-group mt-4">
+                                    <label class="col-xs-12 col-sm-auto p-0 font-smallest">
+                                        <input type="checkbox" name="remember">&nbsp;Keep me logged in
+                                    </label>
+                                    <a href="javascript:void(0)" class="col-xs-12 col-sm-auto ml-xs-0 ml-sm-5 p-0 float-right font-smallest brand-color-text ml-5">
+                                        Forgot Password?
+                                    </a>
+                                </div>
+
+                                <div class="form-group m-0">
+                                    <button id="login-btn" type="submit" class="btn btn-primary brand-color-bg btn-block">SIGN IN</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                   </div>  
+            </div>
+        </div>
+    </section>
+
+     <!-- Stores Block  -->
+    <section>
+        <div class="container">
+              <div class="row d-flex justify-content-sm-around justify-content-md-between pt-5 pb-5 stores-block">
+
+                  <div class="card col-xs-12 col-sm-4 col-md-3 m-3 m-sm-3 m-md-0 p-0 border-0">
+                    <img class="card-img-top border-image" src="dist/img/carrefour-store.jpg" alt="carrefour store 1">
+                    <div class="card-body pl-0 pt-2">
+                        <p class="card-text m-0"><small class="text-muted font-small">IPhone 6 Black</small></p>
+                        <h5 class="card-title font-medium-b">AED 1000</h5>
+                    </div>
+                  </div>
+                  <div class="card col-xs-12 col-sm-4 col-md-3 m-3 m-sm-3 m-md-0 p-0 border-0">
+                    <img class="card-img-top border-image" src="dist/img/carrefour-store.jpg" alt="carrefour store 1">
+                    <div class="card-body pl-0 pt-2">
+                        <p class="card-text m-0"><small class="text-muted font-small">IPhone 7 Black</small></p>
+                        <h5 class="card-title font-medium-b">AED 2000</h5>
+                    </div>
+                  </div>
+                  <div class="card col-xs-12 col-sm-4 col-md-3 m-3 m-sm-3 m-md-0 p-0 border-0">
+                    <img class="card-img-top border-image" src="dist/img/carrefour-store.jpg" alt="carrefour store 1">
+                    <div class="card-body pl-0 pt-2">
+                        <p class="card-text m-0"><small class="text-muted font-small">IPhone 8 Black</small></p>
+                        <h5 class="card-title font-medium-b">AED 3000</h5>
+                    </div>
+                  </div>
+
+              </div>
+        </div>
+    </section>
+
+
+    <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script> 
+    <script src="dist/js/bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+{
+  "name": "htmlproject",
+  "version": "1.0.0",
+  "description": "Basic html project setup",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Sajeev kumar R",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "font-awesome": "4.7.0",
+    "gulp-uglify": "^3.0.0",
+    "jquery": "^3.2.1",
+    "pump": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "jquery-jcrop": "^0.9.13",
+    "popper.js": "^1.14.4"
+  },
+  "scripts": {
+    "gulp": "gulp"
+  }
+}

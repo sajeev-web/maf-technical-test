@@ -1,0 +1,58 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-weight: 400; }
+
+/* Custom Utility classes */
+.brand-color-text {
+  color: #08539B; }
+
+.brand-color-bg {
+  background-color: #08539B; }
+
+.title-main {
+  font-size: 24px;
+  color: #414141;
+  font-weight: 600;
+  /* Opem sans semibold */ }
+
+.font-medium-b {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+  /* Opem sans semibold */ }
+
+.font-small {
+  font-size: 14px; }
+
+.font-smallest {
+  font-size: 12px;
+  line-height: 28px; }
+
+.v-hidden {
+  opacity: 0; }
+
+.border-image {
+  border: 3px solid #f5f5f5; }
+
+/* Login Block */
+.card-wrapper .card {
+  border: 3px solid #f5f5f5; }
+
+.card-wrapper .card-body {
+  padding: 30px 50px 40px; }
+
+.card-wrapper button#login-btn {
+  height: 50px;
+  font-weight: bold; }
+
+/* Stores Block */
+.stores-block {
+  border-top: 1px solid #f5f5f5; }
+
+@media screen and (max-width: 575px) {
+  .card-wrapper .card-body {
+    padding: 22px 16px; }
+  .navbar {
+    padding-left: 0px;
+    padding-right: 0px; } }
