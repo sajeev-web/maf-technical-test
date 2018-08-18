@@ -26,59 +26,6 @@
   40%, 60% {
     transform: translate3d(0, 4px, 0); } }
 
-.custom-box {
-  display: block;
-  margin-bottom: 15px; }
-
-.custom-box input {
-  padding: 0;
-  height: initial;
-  width: initial;
-  margin-bottom: 0;
-  display: none;
-  cursor: pointer; }
-
-.custom-box label {
-  position: relative;
-  cursor: pointer; }
-
-.custom-box label:before {
-  content: '';
-  -webkit-appearance: none;
-  background-color: transparent;
-  border: 2px solid #0079bf;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
-  padding: 10px;
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-  cursor: pointer;
-  margin-right: 5px; }
-
-.custom-box input:checked + label:after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 2px;
-  left: 9px;
-  width: 6px;
-  height: 14px;
-  border: solid #0079bf;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg); }
-
-@font-face {
-  font-family: "HelveticaNeueMed";
-  src: url("../fonts/helvetica/HelveticaNeueMed.eot?") format("eot"), url("../fonts/helvetica/HelveticaNeueMed.woff") format("woff"), url("../fonts/helvetica/HelveticaNeueMed.ttf") format("truetype"), url("../fonts/helvetica/HelveticaNeueMed.svg#HelveticaNeueMed") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Borders-Divide-But-Hearts-Shall-Conquer";
-  src: url("../fonts/Borders_Divide_But_Hearts_Shall_Conquer/Borders_Divide_But_Hearts_Shall_Conquer.eot?") format("eot"), url("../fonts/Borders_Divide_But_Hearts_Shall_Conquer/Borders_Divide_But_Hearts_Shall_Conquer.woff") format("woff"), url("../fonts/Borders_Divide_But_Hearts_Shall_Conquer/Borders_Divide_But_Hearts_Shall_Conquer.ttf") format("truetype"), url("../fonts/Borders_Divide_But_Hearts_Shall_Conquer/Borders_Divide_But_Hearts_Shall_Conquer.svg#Borders-Divide-But-Hearts-Shall-Conquer") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
 /*  Header */
 html, body {
   font-family: 'Open Sans', sans-serif;

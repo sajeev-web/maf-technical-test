@@ -138,8 +138,12 @@
             },
             showSimulation: function() {
                 setTimeout(function(){
+                    var $inputUserName = $(CONSTANTS.CUSTOM_SELECTORS.usernameField);
+                    var $inputPassword = $(CONSTANTS.CUSTOM_SELECTORS.passwordField);
                     $(CONSTANTS.ID_SELECTORS.loginBtn).removeClass("btn-shake-y");
-                    $(CONSTANTS.ID_SELECTORS.loginBtn) .text("Your are signed in !")
+                    $(CONSTANTS.ID_SELECTORS.loginBtn) .text("Your are signed in !");
+                    $inputUserName.attr('disabled', 'disabled');
+                    $inputPassword.attr('disabled', 'disabled');
                 }, 2000);
                 
             }
